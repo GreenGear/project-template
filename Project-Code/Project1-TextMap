@@ -1,0 +1,9 @@
+
+var sketchProc = function(processing) {
+
+    var rectSize = 32;
+
+    	var drawRect = function(){
+	    processing.rect(rectSize, rectSize, rectSize, rectSize);
+	};
+}
