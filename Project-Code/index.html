@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Project</title>
+<script src="processing-1.4.1.js"></script>
+<script type='text/javascript' src='persist-min.js'></script>
+<script>
+ // global object
+    var store;
+
+    function load_data() {
+      // load persistent store after the DOM has loaded
+      store = new Persist.Store('My Application');
+    }
+</script>
+</head>
+<body onload='load_data();'>
+<canvas id="project-canvas"></canvas>
+<script src="Project-MapMaker.js"></script>
+</body>
+<script>
+//    // save data in store
+//    store.set('some_key', 'this is a bunch of persistent data');
+//
+//    // get value from store and prompt user
+//    store.get('some_key', function(ok, val) {
+//      if (ok)
+//        alert('some_key = ' + val);
+//    });
+</script>
+</html>
+
+//////////////////////////////SEGMENTAION//////////////////////////////////////////
+
+//To change the program or file executed change the ^source^ name
+
+//To-Do List:
+//*Get Andy to help debug the persist
+//*Ask Andy for help on saving arrays "Array.join or JSON" in the README file
+
+
+///////NOT REAL CODE////////////////////////////////////
+
+//var rowCol = new array(10)
+//rowCol[0] = new array(10)
+//rowCol[1] = new array(10)
+
+//rowCol[0,0]- upper left
+//rowCol[0,10] - upper right
+//rowCol[10,0] - lower left
+//rowCol[10,10]-lower right
+
+////REAL SYNTAX/////////////////////////////////////////
+
+var (array name) = [#, #, #, #, (etc.)]     <//can use as manny #'s as needed
+
+(var name)[# of # from array];
+
+//////////FOR LOOP//////////////////////////////////////
+
+for (var i = (starting #); i (<, > or =) (max # var); i+(# to count by)) {
+
+}
